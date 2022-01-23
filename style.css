@@ -35,7 +35,7 @@ body {
 }
 
 .settings > button {
-    background-color: #dfdfdf;
+    background-color: transparent;
     border: 1px solid #808080;
     border-radius: 5px;
     font-size:x-large;
@@ -56,15 +56,22 @@ body {
 }
 
 form {
-    max-width: 75%;
+    width: 15vw;
+    max-width: 200px;
+    height: 6vh;
+    max-height: 60px;
+    font-size:x-large;
+    border: 1px solid #808080;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #range {
     -webkit-appearance: none;
-    width: 100%;
+    width: 90%;
     height: 5px;
     margin-top: 10px;
     border-radius: 5px;
